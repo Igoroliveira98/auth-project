@@ -1,0 +1,30 @@
+{
+  "name": "auth-project",
+  "version": "1.0.0",
+  "description": "Projeto fullstack de cadastro e autenticação de usuário.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igoroliveira98/auth-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igoroliveira98/auth-project/issues"
+  },
+  "homepage": "https://github.com/Igoroliveira98/auth-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
