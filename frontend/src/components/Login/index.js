@@ -1,19 +1,38 @@
 import React from 'react';
 
+import './styles.css';
 import bg from '../../assets/bg.jpg'
 
 export default function Login() {
     return (
-        <main>
-            <section className="img-box">
-                <img src={bg} alt="background" />
-            </section>
+        <section>
+            <div className="img-box">
+                <img src={bg} alt="Imagem background" draggable="false" />
+            </div>
 
-            <section className="form-box">
-                <div className="from-content">
-                    <h2>Sign In</h2>
-                </div>
-            </section>
-        </main>
+            <div className="form-box">
+            <div className="formm">
+                <h2>Sign in</h2>
+
+                <form>
+                    <div className="Box">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+
+                    <div className="Box">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="passsword" />
+                    </div>
+
+                    <button className="btn">Sign in</button>
+
+                    <div className="register">
+                        <p>You don't have a account? <span>Click here</span></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </section>
     );
 }
