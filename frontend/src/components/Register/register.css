@@ -41,7 +41,7 @@ section .form-box .formm {
 section .form-box .formm .Box {
     display: flex;
     flex-direction: column;
-    margin: 15px 0;
+    margin: 30px 0;
 }
 
 section .form-box .formm h2 {
@@ -68,7 +68,7 @@ section .form-box .formm .Box input {
 
 section .form-box .formm .btn {
     display: inline-block;
-    margin: 15px 0 15px 30%;
+    margin: 15px 0 15px 40%;
     border: none;
     padding: 15px;
     background-color: rgb(61, 154, 182);
@@ -94,7 +94,7 @@ section .form-box .formm .register p {
 
 section .form-box .formm .register span a {
     text-decoration: none;
-    color: rgb(75, 182, 214);
+    color: rgb(61, 154, 182);
 }
 
 section .form-box .formm .register span a:hover{

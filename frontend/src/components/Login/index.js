@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
-import './styles.css';
 import bg from '../../assets/bg.jpg'
+import './styles.css';
 
 export default function Login() {
     return (
@@ -28,7 +29,7 @@ export default function Login() {
                     <button className="btn">Sign in</button>
 
                     <div className="register">
-                        <p>You don't have a account? <span>Click here</span></p>
+                    <p>You don't have a account? <span><Link to="/register">Click here</Link></span></p>
                     </div>
                 </form>
             </div>
